@@ -69,11 +69,6 @@ a:hover {
            Homepage
    ========================= */
 
-/* Profile Image */
-
-.profile-picture {
-  border-radius: 12px;
-}
 
 /* Homepage contact links */
 
@@ -98,7 +93,7 @@ a:hover {
 
 .profile-picture {
   display: block;
-  margin: 0 auto;
+  margin-left: 0;
   border-radius: 12px;
 }
 
@@ -137,11 +132,15 @@ a:hover {
 
 @media (max-width: 768px) {
   .homepage-intro {
-    margin-top: 1.5rem;
+    align-items: center;
   }
 
   .profile-picture {
-    margin-bottom: 1.5rem;
-    Margin-right: 1.5rem;
+    width: 140px !important;
+    margin-bottom: 0;
+  }
+
+  .homepage-intro h1 {
+    font-size: 1.8rem;
   }
 }
