@@ -1,0 +1,29 @@
+---
+title: "Research"
+---
+
+## Research interests
+
+My research focuses currently on Continuum percolation models for telecommunication applications.
+
+In particular, I am interested in:
+
+- Stochastic geometry
+- Percolation theory
+- Random geometric graphs
+- Mathematical models of wireless networks
+
+
+## Current projects
+
+### Non-trivial phase transition for the Visibility-Relay Model for $d = 2$
+
+Currently we're finalizing a paper with my supervisor proving the existence of a phase transition for the Visibility-Relay Model which we introduced to model Line of Sight communication network in random environments. This work is reminiscent of the article by Hirsch, Janel & Cali (<a href = "https://arxiv.org/abs/1710.11407" target="_blank" >Continuum percolation for Cox point processes</a>). The arguments follow roughly the same structure but some of their techniques do not work for our case and we find other solutions.
+
+I will be presenting this <a href="files/research/posters/geosto26.pdf"target = "_blank"> poster </a> in Rouen for the <a href = "https://geosto26.sciencesconf.org/" target="_blank"> GeoSto26</a> conference.
+
+## Past Projects
+
+### <a href = "files/research/papers/m2thesis.pdf" target = "_blank">Master Thesis</a>
+
+In this thesis we discuss various results relating to Central Limit Theorems for Point Process. We first go over the cumulants method and its theoretical basis. Secondly, we study perturbed hyper-uniform Point Processes by **$\alpha$-stable** perturbation and determine a condition under which the new process is still hyper-uniform and its new hyper-uniform exponent.

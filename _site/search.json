@@ -4,13 +4,111 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I am a PhD candidate in Mathematics and Probability at INRIA Paris since January 2026 under the supervision of Bartek Blaszczsyn and  Julien de Rosny .\nBefore starting my PhD, I studied at Sorbonne Université where I did the M1 / M2 Probabilités et Modèles Aléatoires (PMA). Before that, I studied at Institut d’Optique (SupOptique/IOGS) in Saclay and St-Etienne from 2019 to 2022."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Personnal Webpage",
+    "title": "Personal Page",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hello!\nWelcome to my webpage! I am currently a PhD candidate in mathematics / probability at INRIA in the MATHNET Team under the supervision of Bartek Blaszczsyn (INRIA) and  Julien de Rosny  (Institut Langevin). My PhD is funded by the PSL Grand Projet SmartWaves  under the name “GeoSto4RIS” \nI work on probabilistic models arising in wireless networks. Currently my research focuses on continuum percolation and their applications to telecommunications.\n\nEmail · GitHub · CV"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Personal Page",
+    "section": "",
+    "text": "Email: simon.steinlin@inria.fr or simon.steinlin@gmail.com\nMy Github\nCV"
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "",
+    "text": "I am a PhD candidate in Mathematics and Probability at INRIA Paris since January 2026 under the supervision of Bartek Blaszczsyn and  Julien de Rosny .\nBefore starting my PhD, I studied at Sorbonne Université where I did the M1 / M2 Probabilités et Modèles Aléatoires (PMA). Before that, I studied at Institut d’Optique (SupOptique/IOGS) in Saclay and St-Etienne from 2019 to 2022."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About",
+    "section": "Interests",
+    "text": "Interests\nMy main academic interests are currently stochastic geometry (very vague…) and continuum percolation, but I am just beginning and hopefully I can discover new things!\nI would like to know a little bit more Statistics and learn about Optimal Transport which are topics which interest me. Besides maths, I am currently quite interested in economics but I have yet to pick up a book on it…\nOutside research, I am also interested in (non-exhaustive list) playing Chess, doing a bit of sports, listening to a lot of music, watching esports, reading (currently reading “The Dawn of Everything” which is extremely interesting!)."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nPhD in Mathematics and Probability, ENS Paris - INRIA, 2026–present\nMaster’s degree in Probability, Sorbonne Université, 2023–2025\nMaster’s degree in Optics, Université Jean Monnet, 2021-2022\nEngineering course in Optical Engineering, Institut d’Optique, 2019–2022\nClasse prépa MPSI/MP, Paul Valéry, 2017-2019"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Sorbonne Université\n\nTD\nTP\nPartial Exam correction\n\n\n\n\n\n\n\n(Class of Chloé Sabban)\nPreparation of oral exam exercises throughout the year on various subjects. “Colles” are oral exams which last 1 hour with groups of 3 students. I give them various exercises on the week’s topic which they have to solve at the blackboard individually."
+  },
+  {
+    "objectID": "teaching.html#teaching-experience",
+    "href": "teaching.html#teaching-experience",
+    "title": "Teaching",
+    "section": "",
+    "text": "Sorbonne Université\n\nTD\nTP\nPartial Exam correction\n\n\n\n\n\n\n\n(Class of Chloé Sabban)\nPreparation of oral exam exercises throughout the year on various subjects. “Colles” are oral exams which last 1 hour with groups of 3 students. I give them various exercises on the week’s topic which they have to solve at the blackboard individually."
+  },
+  {
+    "objectID": "teaching.html#teaching-materials",
+    "href": "teaching.html#teaching-materials",
+    "title": "Teaching",
+    "section": "Teaching materials",
+    "text": "Teaching materials\nSome of the exercise sheets and other material I have prepared are available below.\n\nExercise sheets\nSolutions"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses currently on Continuum percolation models for telecommunication applications.\nIn particular, I am interested in:\n\nStochastic geometry\nPercolation theory\nRandom geometric graphs\nMathematical models of wireless networks"
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses currently on Continuum percolation models for telecommunication applications.\nIn particular, I am interested in:\n\nStochastic geometry\nPercolation theory\nRandom geometric graphs\nMathematical models of wireless networks"
+  },
+  {
+    "objectID": "research.html#current-projects",
+    "href": "research.html#current-projects",
+    "title": "Research",
+    "section": "Current projects",
+    "text": "Current projects\n\nNon-trivial phase transition for the Visibility-Relay Model for \\(d = 2\\)\nCurrently we’re finalizing a paper with my supervisor proving the existence of a phase transition for the Visibility-Relay Model which we introduced to model Line of Sight communication network in random environments. This work is reminiscent of the article by Hirsch, Janel & Cali (Continuum percolation for Cox point processes). The arguments follow roughly the same structure but some of their techniques do not work for our case and we find other solutions.\nI will be presenting this  poster  in Rouen for the  GeoSto26 conference."
+  },
+  {
+    "objectID": "research.html#past-projects",
+    "href": "research.html#past-projects",
+    "title": "Research",
+    "section": "Past Projects",
+    "text": "Past Projects\n\nMaster Thesis\nIn this thesis we discuss various results relating to Central Limit Theorems for Point Process. We first go over the cumulants method and its theoretical basis. Secondly, we study perturbed hyper-uniform Point Processes by \\(\\alpha\\)-stable perturbation and determine a condition under which the new process is still hyper-uniform and its new hyper-uniform exponent."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Personal Projects",
+    "section": "",
+    "text": "Short description of what the project is and why you made it.\n\nGitHub repository\nDemo / website\nDownload"
+  },
+  {
+    "objectID": "projects.html#project-title",
+    "href": "projects.html#project-title",
+    "title": "Personal Projects",
+    "section": "",
+    "text": "Short description of what the project is and why you made it.\n\nGitHub repository\nDemo / website\nDownload"
+  },
+  {
+    "objectID": "projects.html#another-project",
+    "href": "projects.html#another-project",
+    "title": "Personal Projects",
+    "section": "Another project",
+    "text": "Another project\nShort description…"
   }
 ]

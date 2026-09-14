@@ -1,0 +1,23 @@
+---
+title: "Teaching"
+---
+
+## Teaching experience
+
+### University Teachings
+
+#### 2026–2027 — Introduction à l'analyse numérique avec Python
+
+**Sorbonne Université**
+
+- TD
+- TP
+- Partial Exam correction
+
+### Other Experiences
+
+#### 2025–2027 — Oral exam examiner in Saint-Louis prépa MPSI
+
+(Class of Chloé Sabban)
+
+Preparation of oral exam exercises throughout the year on various subjects. "Colles" are oral exams which last 1 hour with groups of 3 students. I give them various exercises on the week's topic which they have to solve at the blackboard individually.

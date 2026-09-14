@@ -2,4 +2,24 @@
 title: "About"
 ---
 
-About this site
+## Background
+
+I am a PhD candidate in Mathematics and Probability at INRIA Paris since January 2026 under the supervision of <a href="https://www.di.ens.fr/~blaszczy/" target="_blank">Bartek Blaszczsyn</a> and  <a href="https://ieeexplore.ieee.org/author/37313658200" target="_blank"> Julien de Rosny <a/>.
+
+Before starting my PhD, I studied at Sorbonne Université where I did the M1 / M2 Probabilités et Modèles Aléatoires (PMA). Before that, I studied at Institut d'Optique (SupOptique/IOGS) in Saclay and St-Etienne from 2019 to 2022.
+
+## Interests
+
+My main academic interests are currently stochastic geometry (very vague...) and continuum percolation, but I am just beginning and hopefully I can discover new things!
+
+I would like to know a little bit more Statistics and learn about Optimal Transport which are topics which interest me. Besides maths, I am currently quite interested in economics but I have yet to pick up a book on it...
+
+Outside research, I am also interested in (non-exhaustive list) playing Chess, doing a bit of sports, listening to a lot of music, watching esports, reading (currently reading "The Dawn of Everything" which is extremely interesting!).
+
+## Education
+
+- **PhD in Mathematics and Probability**, ENS Paris - INRIA, 2026–present
+- **Master's degree in Probability**, Sorbonne Université, 2023–2025
+- **Master's degree in Optics**, Université Jean Monnet, 2021-2022
+- **Engineering course in Optical Engineering**, Institut d'Optique, 2019–2022
+- **Classe prépa MPSI/MP**, Paul Valéry, 2017-2019
