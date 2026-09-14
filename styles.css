@@ -69,6 +69,11 @@ a:hover {
            Homepage
    ========================= */
 
+/* Profile Image */
+
+.profile-picture {
+  border-radius: 12px;
+}
 
 /* Homepage contact links */
 
@@ -93,7 +98,7 @@ a:hover {
 
 .profile-picture {
   display: block;
-  margin-left: 0;
+  margin: 0 auto;
   border-radius: 12px;
 }
 
@@ -128,16 +133,18 @@ a:hover {
   align-items: center;
 }
 
-
 /* Mobile layout */
-@media (max-width: 768px) {
-  .profile-picture {
-    display: none;
-  }
-}
 
 @media (max-width: 768px) {
-  .homepage-intro .column:first-child {
-    display: none;
+  .homepage-intro {
+    display: block;
+  }
+
+  .homepage-intro .column {
+    width: 100% !important;
+  }
+
+  .profile-picture {
+    margin-bottom: 2rem;
   }
 }
