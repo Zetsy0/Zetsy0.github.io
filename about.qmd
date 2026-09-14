@@ -16,6 +16,8 @@ I would like to know a little bit more Statistics and learn about Optimal Transp
 
 Outside research, I am also interested in (non-exhaustive list) playing Chess, doing a bit of sports, listening to a lot of music, watching esports, reading (currently reading "The Dawn of Everything" which is extremely interesting!).
 
+I am obsessed with making good-looking figures in Python for my papers. It can take me hours but I love it...
+
 ## Education
 
 - **PhD in Mathematics and Probability**, ENS Paris - INRIA, 2026–present
