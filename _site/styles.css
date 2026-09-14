@@ -128,19 +128,16 @@ a:hover {
   align-items: center;
 }
 
+
 /* Mobile layout */
+@media (max-width: 768px) {
+  .profile-picture {
+    display: none;
+  }
+}
 
 @media (max-width: 768px) {
-  .homepage-intro {
-    align-items: center;
-  }
-
-  .profile-picture {
-    width: 140px !important;
-    margin-bottom: 0;
-  }
-
-  .homepage-intro h1 {
-    font-size: 1.8rem;
+  .homepage-intro .column:first-child {
+    display: none;
   }
 }
