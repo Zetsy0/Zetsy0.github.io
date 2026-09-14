@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Personal Page – Simon Steinlin</title>
+<title>Research – Simon Steinlin</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -96,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -104,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -123,23 +152,37 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-interests" id="toc-research-interests" class="nav-link active" data-scroll-target="#research-interests">Research interests</a></li>
+  <li><a href="#current-projects" id="toc-current-projects" class="nav-link" data-scroll-target="#current-projects">Current projects</a>
+  <ul class="collapse">
+  <li><a href="#non-trivial-phase-transition-for-the-visibility-relay-model-for-d-2" id="toc-non-trivial-phase-transition-for-the-visibility-relay-model-for-d-2" class="nav-link" data-scroll-target="#non-trivial-phase-transition-for-the-visibility-relay-model-for-d-2">Non-trivial phase transition for the Visibility-Relay Model for <span class="math inline">\(d = 2\)</span></a></li>
+  </ul></li>
+  <li><a href="#past-projects" id="toc-past-projects" class="nav-link" data-scroll-target="#past-projects">Past Projects</a>
+  <ul class="collapse">
+  <li><a href="#master-thesis" id="toc-master-thesis" class="nav-link" data-scroll-target="#master-thesis"></a><a href="files/research/papers/m2thesis.pdf" target="_blank" class="nav-link" data-scroll-target="files/research/papers/m2thesis.pdf">Master Thesis</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Personal Page</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -151,22 +194,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="columns homepage-intro">
-<div class="column" style="width:32%;">
-<p><img src="images/profile.jpg" class="profile-picture img-fluid" width="200"></p>
-</div><div class="column" style="width:68%;">
-<section id="hello" class="level1">
-<h1>Hello!</h1>
-<p>Welcome to my webpage! I am currently a PhD candidate in mathematics / probability at INRIA in the MATHNET Team under the supervision of <a href="https://www.di.ens.fr/~blaszczy/" target="_blank">Bartek Blaszczsyn</a> (INRIA) and <a href="https://ieeexplore.ieee.org/author/37313658200" target="_blank"> Julien de Rosny </a><a> (Institut Langevin). My PhD is funded by the </a><a href="https://www.smartwaves.psl.eu/en" target="blank">PSL Grand Projet SmartWaves </a><a> under the name </a><a href="https://www.smartwaves.psl.eu/en/projects/smart-waves-2025-geosto4ris" target="blank">“GeoSto4RIS” </a><a></a></p><a>
-<p>I work on probabilistic models arising in wireless networks. Currently my research focuses on continuum percolation and their applications to telecommunications.</p>
-</a><div class="contact-links"><a>
-</a><p><a></a><a href="mailto:simon.steinlin@inria.fr">Email</a> <span>·</span> <a href="https://github.com/Zetsy0" target="_blank">GitHub</a> <span>·</span> <a href="files/cv_french.pdf" target="_blank">CV</a></p>
-</div>
+<section id="research-interests" class="level2">
+<h2 class="anchored" data-anchor-id="research-interests">Research interests</h2>
+<p>My research focuses currently on Continuum percolation models for telecommunication applications.</p>
+<p>In particular, I am interested in:</p>
+<ul>
+<li>Stochastic geometry</li>
+<li>Percolation theory</li>
+<li>Random geometric graphs</li>
+<li>Mathematical models of wireless networks</li>
+</ul>
 </section>
-</div>
-</div>
+<section id="current-projects" class="level2">
+<h2 class="anchored" data-anchor-id="current-projects">Current projects</h2>
+<section id="non-trivial-phase-transition-for-the-visibility-relay-model-for-d-2" class="level3">
+<h3 class="anchored" data-anchor-id="non-trivial-phase-transition-for-the-visibility-relay-model-for-d-2">Non-trivial phase transition for the Visibility-Relay Model for <span class="math inline">\(d = 2\)</span></h3>
+<p>Currently we’re finalizing a paper with my supervisor proving the existence of a phase transition for the Visibility-Relay Model which we introduced to model Line of Sight communication network in random environments. This work is reminiscent of the article by Hirsch, Janel &amp; Cali (<a href="https://arxiv.org/abs/1710.11407" target="_blank">Continuum percolation for Cox point processes</a>). The arguments follow roughly the same structure but some of their techniques do not work for our case and we find other solutions.</p>
+<p>I will be presenting this <a href="files/research/posters/geosto26.pdf" target="_blank"> poster </a> in Rouen for the <a href="https://geosto26.sciencesconf.org/" target="_blank"> GeoSto26</a> conference.</p>
+</section>
+</section>
+<section id="past-projects" class="level2">
+<h2 class="anchored" data-anchor-id="past-projects">Past Projects</h2>
+<section id="master-thesis" class="level3">
+<h3 class="anchored" data-anchor-id="master-thesis"><a href="files/research/papers/m2thesis.pdf" target="_blank">Master Thesis</a></h3>
+<p>In this thesis we discuss various results relating to Central Limit Theorems for Point Process. We first go over the cumulants method and its theoretical basis. Secondly, we study perturbed hyper-uniform Point Processes by <strong><span class="math inline">\(\alpha\)</span>-stable</strong> perturbation and determine a condition under which the new process is still hyper-uniform and its new hyper-uniform exponent.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
